@@ -36,17 +36,18 @@ Download the PDF worksheets using the links above. The exact practical activitie
 
 ## Training Notes (PDF)
 
-These lecture notes complement the practical worksheets and provide conceptual explanations for each MindSpark module.
+These six lecture notes complement the PW1–PW5 practical worksheets. The lecture notes and practical worksheets are separate resources.
 
-| Module | Topic | PDF lecture notes |
+| Lecture | Topic | PDF lecture notes |
 | --- | --- | --- |
-| PW1 | ROS 2 Fundamentals | [View / Download PW1 Notes](docs/Notes/PW1_ROS2_Fundamentals.pdf) |
-| PW2 | ROS 2 Communication | [View / Download PW2 Notes](docs/Notes/PW2_ROS2_Communication.pdf) |
-| PW3 | ROS 2 Hardware Integration | [View / Download PW3 Notes](docs/Notes/PW3_ROS2_Hardware_Integration.pdf) |
-| PW4 | YOLO Object Detection | [View / Download PW4 Notes](docs/Notes/PW4_YOLO_Object_Detection.pdf) |
-| PW5 | Custom YOLO Training | [View / Download PW5 Notes](docs/Notes/PW5_Custom_YOLO_Training.pdf) |
+| 1 | ROS2 System Integration | [View / Download Note 1](docs/Notes/1.%20ROS2_System_Integration.pdf) |
+| 2 | ROS2 Vision System Integration | [View / Download Note 2](docs/Notes/2.%20ROS2_Vision_System_Integration.pdf) |
+| 3 | ROS2 Vision-Based Hardware Control | [View / Download Note 3](docs/Notes/3.%20ROS2_Vision-Based_Hardware_Control.pdf) |
+| 4 | ROS2 AI Vision Hardware Integration | [View / Download Note 4](docs/Notes/4.%20ROS2_AI_Vision_Hardware_Integration.pdf) |
+| 5 | Deploying YOLO11 in ROS2 | [View / Download Note 5](docs/Notes/5.%20Deploying_YOLO11_in_ROS2.pdf) |
+| 6 | ROS2 and YOLO11 Integration | [View / Download Note 6](docs/Notes/6.%20ROS2_and_YOLO11_Integration.pdf) |
 
-Use the lecture notes for theory and reference, and the [practical worksheets](#practical-worksheets) for guided hands-on activities.
+Use these notes for theory and reference, and the [practical worksheets](#practical-worksheets) for guided hands-on activities.
 
 ## System requirements
 
@@ -80,18 +81,19 @@ MindSpark-ROS2-Training/
 │       ├── setup.py
 │       └── setup.cfg
 ├── docs/
-│   └── worksheets/
-│       ├── PW1_ROS2_Fundamentals.pdf
-│       ├── PW2_ROS2_Communication.pdf
-│       ├── PW3_ROS2_Hardware_Integration.pdf
-│       ├── PW4_YOLO_Object_Detection.pdf
-│       └── PW5_Custom_YOLO_Training.pdf
+│   ├── worksheets/
+│   │   ├── PW1_ROS2_Fundamentals.pdf
+│   │   ├── PW2_ROS2_Communication.pdf
+│   │   ├── PW3_ROS2_Hardware_Integration.pdf
+│   │   ├── PW4_YOLO_Object_Detection.pdf
+│   │   └── PW5_Custom_YOLO_Training.pdf
 │   └── Notes/
-│       ├── PW1_ROS2_Fundamentals.pdf
-│       ├── PW2_ROS2_Communication.pdf
-│       ├── PW3_ROS2_Hardware_Integration.pdf
-│       ├── PW4_YOLO_Object_Detection.pdf
-│       └── PW5_Custom_YOLO_Training.pdf
+│       ├── 1. ROS2_System_Integration.pdf
+│       ├── 2. ROS2_Vision_System_Integration.pdf
+│       ├── 3. ROS2_Vision-Based_Hardware_Control.pdf
+│       ├── 4. ROS2_AI_Vision_Hardware_Integration.pdf
+│       ├── 5. Deploying_YOLO11_in_ROS2.pdf
+│       └── 6. ROS2_and_YOLO11_Integration.pdf
 ├── frame_extractor.py
 ├── dataset_splitter.py
 ├── requirements.txt
