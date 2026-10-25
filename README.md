@@ -34,6 +34,20 @@ Participants will learn to:
 
 Download the PDF worksheets using the links above. The exact practical activities, wiring, topic connections and execution order should be followed from the accompanying PW1–PW5 worksheets. The table above is a guide to package components, not a replacement for those worksheets.
 
+## Training Notes (PDF)
+
+These lecture notes complement the practical worksheets and provide conceptual explanations for each MindSpark module.
+
+| Module | Topic | PDF lecture notes |
+| --- | --- | --- |
+| PW1 | ROS 2 Fundamentals | [View / Download PW1 Notes](docs/Notes/PW1_ROS2_Fundamentals.pdf) |
+| PW2 | ROS 2 Communication | [View / Download PW2 Notes](docs/Notes/PW2_ROS2_Communication.pdf) |
+| PW3 | ROS 2 Hardware Integration | [View / Download PW3 Notes](docs/Notes/PW3_ROS2_Hardware_Integration.pdf) |
+| PW4 | YOLO Object Detection | [View / Download PW4 Notes](docs/Notes/PW4_YOLO_Object_Detection.pdf) |
+| PW5 | Custom YOLO Training | [View / Download PW5 Notes](docs/Notes/PW5_Custom_YOLO_Training.pdf) |
+
+Use the lecture notes for theory and reference, and the [practical worksheets](#practical-worksheets) for guided hands-on activities.
+
 ## System requirements
 
 - Ubuntu 24.04 LTS (tested development platform)
@@ -67,6 +81,12 @@ MindSpark-ROS2-Training/
 │       └── setup.cfg
 ├── docs/
 │   └── worksheets/
+│       ├── PW1_ROS2_Fundamentals.pdf
+│       ├── PW2_ROS2_Communication.pdf
+│       ├── PW3_ROS2_Hardware_Integration.pdf
+│       ├── PW4_YOLO_Object_Detection.pdf
+│       └── PW5_Custom_YOLO_Training.pdf
+│   └── Notes/
 │       ├── PW1_ROS2_Fundamentals.pdf
 │       ├── PW2_ROS2_Communication.pdf
 │       ├── PW3_ROS2_Hardware_Integration.pdf
